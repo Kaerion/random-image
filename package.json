@@ -1,0 +1,35 @@
+{
+  "name": "random-image",
+  "version": "1.0.0",
+  "description": "Randomize 2 images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaerion/random-image.git"
+  },
+  "keywords": [
+    "random",
+    "images"
+  ],
+  "author": "Kaerion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaerion/random-image/issues"
+  },
+  "homepage": "https://github.com/Kaerion/random-image#readme",
+  "devDependencies": {
+    "semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "semistandard"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "4.18.2"
+  }
+}
